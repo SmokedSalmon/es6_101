@@ -1,0 +1,28 @@
+{
+  "name": "code_of_jerry",
+  "version": "1.0.0",
+  "description": "Codes of Jerry's",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "html-loader": "^0.5.5",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14",
+    "write-file-webpack-plugin": "^4.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "transpile": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "author": "Jerry J Su",
+  "license": "ISC"
+}
